@@ -1,0 +1,13 @@
+# Local development: gpt-oss-20b via Ollama, SWE-bench images via Colima (x86 under Rosetta)
+model:
+  model_name: "openai/gpt-oss-20b-64k"
+  cost_tracking: "ignore_errors"        # local model has no price; don't abort on it
+  model_kwargs:
+    api_base: "http://localhost:11434/v1"
+    api_key: "ollama"                   # dummy; Ollama ignores it
+    temperature: 1.0                    # OpenAI's recommended setting for gpt-oss
+agent:
+  step_limit: 50                        # keep dev runs short
+environment:
+  run_args: ["--rm", "--platform", "linux/amd64"]
+  pull_timeout: 900

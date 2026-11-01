@@ -1,0 +1,170 @@
+{
+  "first": {
+    "content": "Step 1: I need to identify Python files in the current directory. I'll use the `find` command to search for files with the `.py` extension.",
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"command\": \"find . -maxdepth 1 -name \\\"*.py\\\" -type f\"}",
+          "name": "bash"
+        },
+        "id": "chatcmpl-tool-b50c99ac45552252",
+        "type": "function"
+      }
+    ],
+    "function_call": null,
+    "reasoning_content": "The user wants me to perform two steps:\n1. List the Python files in the current directory\n2. Count the lines of each of them\n\nI need to explain my reasoning briefly before each call.\n\nLet me start with Step 1: listing Python files. I'll use `ls` or `find` to locate `.py` files.\n",
+    "provider_specific_fields": {
+      "reasoning": "The user wants me to perform two steps:\n1. List the Python files in the current directory\n2. Count the lines of each of them\n\nI need to explain my reasoning briefly before each call.\n\nLet me start with Step 1: listing Python files. I'll use `ls` or `find` to locate `.py` files.\n",
+      "refusal": null
+    },
+    "extra": {
+      "actions": [
+        {
+          "command": "find . -maxdepth 1 -name \"*.py\" -type f",
+          "tool_call_id": "chatcmpl-tool-b50c99ac45552252"
+        }
+      ],
+      "response": {
+        "id": "chatcmpl-835c0bbfd9ad4c6f",
+        "created": 1793465167,
+        "model": "qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "system_fingerprint": "vllm-0.31.0-tp2-39a4e0b1",
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "Step 1: I need to identify Python files in the current directory. I'll use the `find` command to search for files with the `.py` extension.",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"command\": \"find . -maxdepth 1 -name \\\"*.py\\\" -type f\"}",
+                    "name": "bash"
+                  },
+                  "id": "chatcmpl-tool-b50c99ac45552252",
+                  "type": "function"
+                }
+              ],
+              "function_call": null,
+              "reasoning_content": "The user wants me to perform two steps:\n1. List the Python files in the current directory\n2. Count the lines of each of them\n\nI need to explain my reasoning briefly before each call.\n\nLet me start with Step 1: listing Python files. I'll use `ls` or `find` to locate `.py` files.\n",
+              "provider_specific_fields": {
+                "reasoning": "The user wants me to perform two steps:\n1. List the Python files in the current directory\n2. Count the lines of each of them\n\nI need to explain my reasoning briefly before each call.\n\nLet me start with Step 1: listing Python files. I'll use `ls` or `find` to locate `.py` files.\n",
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {
+              "stop_reason": null,
+              "routed_experts": null,
+              "token_ids": null
+            }
+          }
+        ],
+        "usage": {
+          "completion_tokens": 150,
+          "prompt_tokens": 338,
+          "total_tokens": 488,
+          "completion_tokens_details": {
+            "reasoning_tokens": 73
+          },
+          "prompt_tokens_details": null
+        },
+        "service_tier": null,
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "cost": 0.00015000000000000001,
+      "timestamp": 1793465168.8204925
+    }
+  },
+  "second": {
+    "content": "Step 2: Now I'll count the lines in each of the Python files found (setup.py and example.py) using the `wc -l` command.",
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"command\": \"wc -l setup.py example.py\"}",
+          "name": "bash"
+        },
+        "id": "chatcmpl-tool-9d714433a7d1d015",
+        "type": "function"
+      }
+    ],
+    "function_call": null,
+    "reasoning_content": "The output shows there are two Python files in the current directory:\n1. setup.py\n2. example.py\n\nNow I need to proceed to Step 2: count the lines of each of these files. I'll use the `wc -l` command on each file.\n",
+    "provider_specific_fields": {
+      "reasoning": "The output shows there are two Python files in the current directory:\n1. setup.py\n2. example.py\n\nNow I need to proceed to Step 2: count the lines of each of these files. I'll use the `wc -l` command on each file.\n",
+      "refusal": null
+    },
+    "extra": {
+      "actions": [
+        {
+          "command": "wc -l setup.py example.py",
+          "tool_call_id": "chatcmpl-tool-9d714433a7d1d015"
+        }
+      ],
+      "response": {
+        "id": "chatcmpl-96cc72f5d5fa5ea5",
+        "created": 1793465168,
+        "model": "qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "system_fingerprint": "vllm-0.31.0-tp2-39a4e0b1",
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+              "content": "Step 2: Now I'll count the lines in each of the Python files found (setup.py and example.py) using the `wc -l` command.",
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"command\": \"wc -l setup.py example.py\"}",
+                    "name": "bash"
+                  },
+                  "id": "chatcmpl-tool-9d714433a7d1d015",
+                  "type": "function"
+                }
+              ],
+              "function_call": null,
+              "reasoning_content": "The output shows there are two Python files in the current directory:\n1. setup.py\n2. example.py\n\nNow I need to proceed to Step 2: count the lines of each of these files. I'll use the `wc -l` command on each file.\n",
+              "provider_specific_fields": {
+                "reasoning": "The output shows there are two Python files in the current directory:\n1. setup.py\n2. example.py\n\nNow I need to proceed to Step 2: count the lines of each of these files. I'll use the `wc -l` command on each file.\n",
+                "refusal": null
+              }
+            },
+            "provider_specific_fields": {
+              "stop_reason": null,
+              "routed_experts": null,
+              "token_ids": null
+            }
+          }
+        ],
+        "usage": {
+          "completion_tokens": 126,
+          "prompt_tokens": 526,
+          "total_tokens": 652,
+          "completion_tokens_details": {
+            "reasoning_tokens": 58
+          },
+          "prompt_tokens_details": null
+        },
+        "service_tier": null,
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "cost": 0.000126,
+      "timestamp": 1793465169.6813133
+    }
+  }
+}

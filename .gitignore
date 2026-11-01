@@ -1,0 +1,21 @@
+# Python and macOS
+.venv/
+__pycache__/
+.DS_Store
+.env
+# working files that are not part of the repository
+/scratchpad/
+# raw data, clones and intermediate tables that `make pilot-data` and `make histories` download or rebuild
+data/public/*/trajs/
+data/repos/
+data/repos_full/
+/ext/
+data/derived/*/steps.csv
+data/derived/*/instances.csv
+data/derived/*/footprint.jsonl
+data/derived/trees.jsonl
+# outputs of local agent runs and of the scorer, which writes its reports into the folder it runs from
+/out/
+/runs/
+/logs/
+/*.json

@@ -1,0 +1,11 @@
+replicate	task	exit_status	patch_lines	api_calls	turns_with_thinking	thinking_chars_median	output_tokens	input_tokens_last	minutes	worktree_changes
+qwen3.6-35b-a3b-r01	django__django-13121	Submitted	7	132	132/132	101	21838	55910	12.0	2
+qwen3.6-35b-a3b-r01	django__django-16315	Submitted	29	87	87/87	89	15487	45236	8.5	11
+qwen3.6-35b-a3b-r02	django__django-13121	Submitted	7	85	85/85	103	11201	32018	7.9	3
+qwen3.6-35b-a3b-r02	django__django-16315	Submitted	18	109	109/109	109	20882	57086	10.6	18
+qwen3.6-35b-a3b-r03	django__django-13121	Submitted	5	99	99/99	87	15032	48038	9.5	5
+qwen3.6-35b-a3b-r03	django__django-16315	Submitted	18	81	81/81	95	15253	46192	8.6	6
+qwen3.6-35b-a3b-r04	django__django-13121	Submitted	7	136	136/136	104	20935	57148	11.9	3
+qwen3.6-35b-a3b-r04	django__django-16315	Submitted	24	63	63/63	112	13935	35248	7.0	5
+qwen3.6-35b-a3b-r05	django__django-13121	Submitted	3	87	87/87	92	10822	39364	8.1	3
+qwen3.6-35b-a3b-r05	django__django-16315	Submitted	18	77	77/77	108	20507	48927	8.8	12

@@ -1,0 +1,7 @@
+vllm:prompt_tokens_total{engine="0",model_name="qwen3.6-35b-a3b"} 2.4942766e+07
+vllm:generation_tokens_total{engine="0",model_name="qwen3.6-35b-a3b"} 167246.0
+vllm:request_success_total{engine="0",finished_reason="stop",model_name="qwen3.6-35b-a3b"} 958.0
+vllm:request_success_total{engine="0",finished_reason="length",model_name="qwen3.6-35b-a3b"} 0.0
+vllm:request_success_total{engine="0",finished_reason="abort",model_name="qwen3.6-35b-a3b"} 0.0
+vllm:request_success_total{engine="0",finished_reason="error",model_name="qwen3.6-35b-a3b"} 0.0
+vllm:request_success_total{engine="0",finished_reason="repetition",model_name="qwen3.6-35b-a3b"} 0.0

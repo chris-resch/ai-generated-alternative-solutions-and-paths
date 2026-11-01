@@ -1,0 +1,37 @@
+# mini-swe-agent settings for runs on the cluster: model served by vLLM inside the same Slurm job,
+# task containers through Apptainer. Loaded on top of mini-swe-agent's own SWE-bench settings
+# (prompt, submit rule, observation format), the same file the public runs used:
+#   python cluster/run_swebench.py ... -c swebench.yaml -c configs/mini/cluster-vllm.yaml -c model.model_kwargs.api_base=...
+# The job script adds the server address and port, which change with every job.
+
+model:
+  # hosted_vllm/ = LiteLLM's provider for vLLM servers (what mini-swe-agent's docs use for vLLM).
+  # The name after the slash is vLLM's --served-model-name.
+  model_name: hosted_vllm/qwen3.6-35b-a3b
+  # Prices each output token at 1e-6, so "cost" = millions of output tokens; makes cost_limit a token budget.
+  litellm_model_registry: configs/mini/qwen3.6-35b-a3b_registry.json
+  # If LiteLLM cannot price a reply, continue with cost 0 instead of stopping the run;
+  # the job's preflight step reports whether the token budget is active.
+  cost_tracking: ignore_errors
+  model_kwargs:
+    # Sampling as recommended for Qwen3.6 in thinking mode on precise coding tasks
+    # (the model's own generation_config defaults to temperature 1.0, the "general tasks" setting).
+    temperature: 0.6
+    top_p: 0.95
+    max_tokens: 32768        # per reply, thinking included
+    extra_body:              # vLLM-specific settings, passed through unchanged
+      top_k: 20
+      min_p: 0.0
+
+agent:
+  step_limit: 250            # same as the public bash-only runs
+  cost_limit: 0.5            # = 500,000 output tokens per run (see registry)
+  wall_time_limit_seconds: 2400   # 40 min per run; the job script can lower or raise it
+
+environment:
+  # "singularity" = harness.apptainer_env.ApptainerEnvironment when started through cluster/run_swebench.py
+  # (plain `mini-extra swebench` would use mini-swe-agent's own class, which downloads images at run time).
+  environment_class: singularity
+  timeout: 60                # seconds per command, as in swebench.yaml
+  record_worktree: false     # true: store git diff after every command (hidden from the agent)
+  # sif_dir and sandbox_root come from TASK_SIF_DIR and SANDBOX_ROOT, set by the job script.

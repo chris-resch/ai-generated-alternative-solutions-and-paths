@@ -1,0 +1,12 @@
+run,tasks_solved,share_of_tasks
+claude-4-5-haiku-high,333,0.666
+claude-4-5-opus-high,384,0.768
+claude-4-5-sonnet-high,357,0.714
+claude-4-6-opus,378,0.756
+deepseek-3-2-high,350,0.7
+gemini-3-flash-high,379,0.758
+glm-5-high,364,0.728
+gpt-5-2-high,364,0.728
+gpt-5-mini,281,0.562
+kimi-k2-5-high,354,0.708
+minimax-2-5-high,379,0.758

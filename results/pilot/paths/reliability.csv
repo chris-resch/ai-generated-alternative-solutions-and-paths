@@ -1,0 +1,19 @@
+measure,tasks,spearman_A_vs_B,spearman_brown_full_panel
+explore_steps_net,500,0.864,0.927
+breadth_net,500,0.857,0.923
+revisits_net,500,0.885,0.939
+experiments_net,500,0.525,0.688
+failed_checks_net,500,0.228,0.371
+start_agree,498,0.539,0.7
+gate_share,405,0.334,0.501
+spread,500,0.595,0.746
+split_point,500,0.427,0.599
+crossroad_moves,497,0.534,0.696
+misdirected,405,0.634,0.776
+human_start,497,0.761,0.864
+human_seen,405,0.636,0.777
+go_share,240,0.316,0.481
+explore_steps_net (django only),231,0.88,0.936
+explore_steps_net (other repositories),269,0.842,0.914
+human_start (django only),231,0.788,0.881
+human_start (other repositories),266,0.742,0.852

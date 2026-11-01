@@ -1,0 +1,12 @@
+{
+  "pydata__xarray-4075": {
+    "model_name_or_path": "hosted_vllm/qwen3.6-35b-a3b",
+    "instance_id": "pydata__xarray-4075",
+    "model_patch": "diff --git a/xarray/core/weighted.py b/xarray/core/weighted.py\nindex 996d2e4c..a9b2ec41 100644\n--- a/xarray/core/weighted.py\n+++ b/xarray/core/weighted.py\n@@ -140,7 +140,7 @@ class Weighted:\n         \"\"\" Calculate the sum of weights, accounting for missing values \"\"\"\n \n         # we need to mask data values that are nan; else the weights are wrong\n-        mask = da.notnull()\n+        mask = da.notnull().astype(int)\n \n         sum_of_weights = self._reduce(mask, self.weights, dim=dim, skipna=False)\n \n"
+  },
+  "sphinx-doc__sphinx-8551": {
+    "model_name_or_path": "hosted_vllm/qwen3.6-35b-a3b",
+    "instance_id": "sphinx-doc__sphinx-8551",
+    "model_patch": "            elif classname and classname + '.' + name in self.objects:\n                newname = classname + '.' + name\n            elif modname and modname + '.' + name in self.objects:\n                newname = modname + '.' + name\n            elif modname and classname and \\\n                    modname + '.' + classname + '.' + name in self.objects:\n                newname = modname + '.' + classname + '.' + name\n        if newname is not None:\n            matches.append((newname, self.objects[newname]))\n        return matches\n\n    def process_field_xref(self, pnode: pending_xref) -> None:\n        \"\"\"Process a pending xref created in a doc field.\n\n        For example, attach information about the current scope.\n        \"\"\"\n        pnode.attributes.update(self.env.ref_context)\n\n    def resolve_xref(self, env: BuildEnvironment, fromdocname: str, builder: Builder,\n                     type: str, target: str, node: pending_xref, contnode: Element\n                     ) -> Element:\n        modname = node.get('py:module')\n        clsname = node.get('py:class')\n        searchmode = 1 if node.hasattr('refspecific') else 0\n        matches = self.find_obj(env, modname, clsname, target,\n                                type, searchmode)\n\n        if not matches and type == 'attr':\n            # fallback to meth (for property)\n            matches = self.find_obj(env, modname, clsname, target, 'meth', searchmode)\n"
+  }
+}

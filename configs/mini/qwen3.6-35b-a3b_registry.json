@@ -1,0 +1,24 @@
+{
+  "qwen3.6-35b-a3b": {
+    "max_input_tokens": 229376,
+    "max_output_tokens": 32768,
+    "max_tokens": 32768,
+    "input_cost_per_token": 0.0,
+    "output_cost_per_token": 0.000001,
+    "litellm_provider": "hosted_vllm",
+    "mode": "chat",
+    "supports_function_calling": true,
+    "supports_reasoning": true
+  },
+  "hosted_vllm/qwen3.6-35b-a3b": {
+    "max_input_tokens": 229376,
+    "max_output_tokens": 32768,
+    "max_tokens": 32768,
+    "input_cost_per_token": 0.0,
+    "output_cost_per_token": 0.000001,
+    "litellm_provider": "hosted_vllm",
+    "mode": "chat",
+    "supports_function_calling": true,
+    "supports_reasoning": true
+  }
+}

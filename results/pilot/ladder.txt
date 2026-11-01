@@ -1,0 +1,7 @@
+11 runs, 500 tasks
+solved by at least one run: 441 | by all 11: 211 | by 1 to 3: 50 | by none: 59
+difficulty '<15 min fix': 194 tasks, mean runs solving 9.3
+difficulty '15 min - 1 hour': 261 tasks, mean runs solving 7.5
+difficulty '1-4 hours': 42 tasks, mean runs solving 3.6
+difficulty '>4 hours': 3 tasks, mean runs solving 3.0
+rank correlation, difficulty band vs runs solving: -0.364

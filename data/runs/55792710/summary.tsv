@@ -1,0 +1,11 @@
+replicate	task	exit_status	patch_lines	api_calls	turns_with_thinking	thinking_chars_median	output_tokens	input_tokens_last	minutes	worktree_changes
+qwen3.6-35b-a3b-r01	matplotlib__matplotlib-24627	Submitted	11	74	74/74	96	11432	35843	5.7	9
+qwen3.6-35b-a3b-r01	scikit-learn__scikit-learn-13439	Submitted	11	31	31/31	117	3843	17339	1.9	2
+qwen3.6-35b-a3b-r02	matplotlib__matplotlib-24627	Submitted	5	82	82/82	126	12293	41068	6.3	8
+qwen3.6-35b-a3b-r02	scikit-learn__scikit-learn-13439	Submitted	13	23	23/23	155	2808	15257	1.5	1
+qwen3.6-35b-a3b-r03	matplotlib__matplotlib-24627	Submitted	11	96	96/96	103	15482	47282	6.9	12
+qwen3.6-35b-a3b-r03	scikit-learn__scikit-learn-13439	Submitted	10	25	24/24	114	3002	14155	1.3	2
+qwen3.6-35b-a3b-r04	matplotlib__matplotlib-24627	Submitted	8238	132	132/132	102	19425	55537	8.0	13
+qwen3.6-35b-a3b-r04	scikit-learn__scikit-learn-13439	Submitted	5	39	39/39	116	3971	14524	2.1	6
+qwen3.6-35b-a3b-r05	matplotlib__matplotlib-24627	Submitted	31	105	105/105	104	18577	52345	7.5	15
+qwen3.6-35b-a3b-r05	scikit-learn__scikit-learn-13439	Submitted	5	28	28/28	110	3471	14130	1.6	3

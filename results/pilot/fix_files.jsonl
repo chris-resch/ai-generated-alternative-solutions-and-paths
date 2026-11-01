@@ -1,0 +1,500 @@
+{"instance_id": "astropy__astropy-12907", "fix_files": ["astropy/modeling/separable.py"], "test_files": []}
+{"instance_id": "astropy__astropy-13033", "fix_files": ["astropy/timeseries/core.py"], "test_files": []}
+{"instance_id": "astropy__astropy-13236", "fix_files": ["astropy/table/table.py"], "test_files": []}
+{"instance_id": "astropy__astropy-13398", "fix_files": ["astropy/coordinates/builtin_frames/__init__.py", "astropy/coordinates/builtin_frames/intermediate_rotation_transforms.py", "astropy/coordinates/builtin_frames/itrs.py", "astropy/coordinates/builtin_frames/itrs_observed_transforms.py"], "test_files": []}
+{"instance_id": "astropy__astropy-13453", "fix_files": ["astropy/io/ascii/html.py"], "test_files": []}
+{"instance_id": "astropy__astropy-13579", "fix_files": ["astropy/wcs/wcsapi/wrappers/sliced_wcs.py"], "test_files": []}
+{"instance_id": "astropy__astropy-13977", "fix_files": ["astropy/units/quantity.py"], "test_files": []}
+{"instance_id": "astropy__astropy-14096", "fix_files": ["astropy/coordinates/sky_coordinate.py"], "test_files": []}
+{"instance_id": "astropy__astropy-14182", "fix_files": ["astropy/io/ascii/rst.py"], "test_files": []}
+{"instance_id": "astropy__astropy-14309", "fix_files": ["astropy/io/fits/connect.py"], "test_files": []}
+{"instance_id": "astropy__astropy-14365", "fix_files": ["astropy/io/ascii/qdp.py"], "test_files": []}
+{"instance_id": "astropy__astropy-14369", "fix_files": ["astropy/units/format/cds.py", "astropy/units/format/cds_parsetab.py"], "test_files": []}
+{"instance_id": "astropy__astropy-14508", "fix_files": ["astropy/io/fits/card.py"], "test_files": []}
+{"instance_id": "astropy__astropy-14539", "fix_files": ["astropy/io/fits/diff.py"], "test_files": []}
+{"instance_id": "astropy__astropy-14598", "fix_files": ["astropy/io/fits/card.py"], "test_files": []}
+{"instance_id": "astropy__astropy-14995", "fix_files": ["astropy/nddata/mixins/ndarithmetic.py"], "test_files": []}
+{"instance_id": "astropy__astropy-7166", "fix_files": ["astropy/utils/misc.py"], "test_files": []}
+{"instance_id": "astropy__astropy-7336", "fix_files": ["astropy/units/decorators.py"], "test_files": []}
+{"instance_id": "astropy__astropy-7606", "fix_files": ["astropy/units/core.py"], "test_files": []}
+{"instance_id": "astropy__astropy-7671", "fix_files": ["astropy/utils/introspection.py"], "test_files": []}
+{"instance_id": "astropy__astropy-8707", "fix_files": ["astropy/io/fits/card.py", "astropy/io/fits/header.py"], "test_files": []}
+{"instance_id": "astropy__astropy-8872", "fix_files": ["astropy/units/quantity.py"], "test_files": []}
+{"instance_id": "django__django-10097", "fix_files": ["django/core/validators.py"], "test_files": []}
+{"instance_id": "django__django-10554", "fix_files": ["django/db/models/sql/compiler.py", "django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-10880", "fix_files": ["django/db/models/aggregates.py"], "test_files": []}
+{"instance_id": "django__django-10914", "fix_files": ["django/conf/global_settings.py"], "test_files": []}
+{"instance_id": "django__django-10973", "fix_files": ["django/db/backends/postgresql/client.py"], "test_files": []}
+{"instance_id": "django__django-10999", "fix_files": ["django/utils/dateparse.py"], "test_files": []}
+{"instance_id": "django__django-11066", "fix_files": ["django/contrib/contenttypes/management/__init__.py"], "test_files": []}
+{"instance_id": "django__django-11087", "fix_files": ["django/db/models/deletion.py"], "test_files": []}
+{"instance_id": "django__django-11095", "fix_files": ["django/contrib/admin/options.py"], "test_files": []}
+{"instance_id": "django__django-11099", "fix_files": ["django/contrib/auth/validators.py"], "test_files": []}
+{"instance_id": "django__django-11119", "fix_files": ["django/template/engine.py"], "test_files": []}
+{"instance_id": "django__django-11133", "fix_files": ["django/http/response.py"], "test_files": []}
+{"instance_id": "django__django-11138", "fix_files": ["django/db/backends/mysql/operations.py", "django/db/backends/oracle/operations.py", "django/db/backends/sqlite3/base.py", "django/db/backends/sqlite3/operations.py"], "test_files": []}
+{"instance_id": "django__django-11141", "fix_files": ["django/db/migrations/loader.py"], "test_files": []}
+{"instance_id": "django__django-11149", "fix_files": ["django/contrib/admin/options.py"], "test_files": []}
+{"instance_id": "django__django-11163", "fix_files": ["django/forms/models.py"], "test_files": []}
+{"instance_id": "django__django-11179", "fix_files": ["django/db/models/deletion.py"], "test_files": []}
+{"instance_id": "django__django-11206", "fix_files": ["django/utils/numberformat.py"], "test_files": []}
+{"instance_id": "django__django-11211", "fix_files": ["django/db/models/fields/__init__.py"], "test_files": []}
+{"instance_id": "django__django-11239", "fix_files": ["django/db/backends/postgresql/client.py"], "test_files": []}
+{"instance_id": "django__django-11265", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-11276", "fix_files": ["django/utils/html.py"], "test_files": []}
+{"instance_id": "django__django-11292", "fix_files": ["django/core/management/base.py"], "test_files": []}
+{"instance_id": "django__django-11299", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-11333", "fix_files": ["django/urls/base.py", "django/urls/resolvers.py"], "test_files": []}
+{"instance_id": "django__django-11400", "fix_files": ["django/contrib/admin/filters.py", "django/db/models/fields/__init__.py", "django/db/models/fields/reverse_related.py"], "test_files": []}
+{"instance_id": "django__django-11433", "fix_files": ["django/forms/models.py"], "test_files": []}
+{"instance_id": "django__django-11451", "fix_files": ["django/contrib/auth/backends.py"], "test_files": []}
+{"instance_id": "django__django-11477", "fix_files": ["django/urls/resolvers.py"], "test_files": []}
+{"instance_id": "django__django-11490", "fix_files": ["django/db/models/sql/compiler.py"], "test_files": []}
+{"instance_id": "django__django-11532", "fix_files": ["django/core/mail/message.py", "django/core/mail/utils.py", "django/core/validators.py", "django/utils/encoding.py", "django/utils/html.py"], "test_files": []}
+{"instance_id": "django__django-11551", "fix_files": ["django/contrib/admin/checks.py"], "test_files": []}
+{"instance_id": "django__django-11555", "fix_files": ["django/db/models/sql/compiler.py"], "test_files": []}
+{"instance_id": "django__django-11603", "fix_files": ["django/db/models/aggregates.py"], "test_files": []}
+{"instance_id": "django__django-11728", "fix_files": ["django/contrib/admindocs/utils.py"], "test_files": []}
+{"instance_id": "django__django-11734", "fix_files": ["django/db/models/fields/__init__.py", "django/db/models/fields/related_lookups.py", "django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-11740", "fix_files": ["django/db/migrations/autodetector.py"], "test_files": []}
+{"instance_id": "django__django-11749", "fix_files": ["django/core/management/__init__.py"], "test_files": []}
+{"instance_id": "django__django-11790", "fix_files": ["django/contrib/auth/forms.py"], "test_files": []}
+{"instance_id": "django__django-11815", "fix_files": ["django/db/migrations/serializer.py"], "test_files": []}
+{"instance_id": "django__django-11820", "fix_files": ["django/db/models/base.py"], "test_files": []}
+{"instance_id": "django__django-11848", "fix_files": ["django/utils/http.py"], "test_files": []}
+{"instance_id": "django__django-11880", "fix_files": ["django/forms/fields.py"], "test_files": []}
+{"instance_id": "django__django-11885", "fix_files": ["django/contrib/admin/utils.py", "django/db/models/deletion.py"], "test_files": []}
+{"instance_id": "django__django-11951", "fix_files": ["django/db/models/query.py"], "test_files": []}
+{"instance_id": "django__django-11964", "fix_files": ["django/db/models/enums.py"], "test_files": []}
+{"instance_id": "django__django-11999", "fix_files": ["django/db/models/fields/__init__.py"], "test_files": []}
+{"instance_id": "django__django-12039", "fix_files": ["django/db/backends/ddl_references.py"], "test_files": []}
+{"instance_id": "django__django-12050", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-12125", "fix_files": ["django/db/migrations/serializer.py"], "test_files": []}
+{"instance_id": "django__django-12143", "fix_files": ["django/contrib/admin/options.py"], "test_files": []}
+{"instance_id": "django__django-12155", "fix_files": ["django/contrib/admindocs/utils.py", "django/contrib/admindocs/views.py"], "test_files": []}
+{"instance_id": "django__django-12193", "fix_files": ["django/forms/widgets.py"], "test_files": []}
+{"instance_id": "django__django-12209", "fix_files": ["django/db/models/base.py"], "test_files": []}
+{"instance_id": "django__django-12262", "fix_files": ["django/template/library.py"], "test_files": []}
+{"instance_id": "django__django-12273", "fix_files": ["django/db/models/base.py"], "test_files": []}
+{"instance_id": "django__django-12276", "fix_files": ["django/forms/widgets.py"], "test_files": []}
+{"instance_id": "django__django-12304", "fix_files": ["django/db/models/enums.py"], "test_files": []}
+{"instance_id": "django__django-12308", "fix_files": ["django/contrib/admin/utils.py"], "test_files": []}
+{"instance_id": "django__django-12325", "fix_files": ["django/db/models/base.py", "django/db/models/options.py"], "test_files": []}
+{"instance_id": "django__django-12406", "fix_files": ["django/db/models/fields/related.py", "django/forms/models.py"], "test_files": []}
+{"instance_id": "django__django-12419", "fix_files": ["django/conf/global_settings.py"], "test_files": []}
+{"instance_id": "django__django-12663", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-12708", "fix_files": ["django/db/backends/base/schema.py"], "test_files": []}
+{"instance_id": "django__django-12713", "fix_files": ["django/contrib/admin/options.py"], "test_files": []}
+{"instance_id": "django__django-12741", "fix_files": ["django/core/management/commands/flush.py", "django/db/backends/base/operations.py"], "test_files": []}
+{"instance_id": "django__django-12754", "fix_files": ["django/db/migrations/autodetector.py"], "test_files": []}
+{"instance_id": "django__django-12774", "fix_files": ["django/db/models/query.py"], "test_files": []}
+{"instance_id": "django__django-12858", "fix_files": ["django/db/models/base.py"], "test_files": []}
+{"instance_id": "django__django-12965", "fix_files": ["django/db/models/sql/compiler.py"], "test_files": []}
+{"instance_id": "django__django-13012", "fix_files": ["django/db/models/expressions.py"], "test_files": []}
+{"instance_id": "django__django-13023", "fix_files": ["django/db/models/fields/__init__.py"], "test_files": []}
+{"instance_id": "django__django-13028", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-13033", "fix_files": ["django/db/models/sql/compiler.py"], "test_files": []}
+{"instance_id": "django__django-13089", "fix_files": ["django/core/cache/backends/db.py"], "test_files": []}
+{"instance_id": "django__django-13109", "fix_files": ["django/db/models/fields/related.py"], "test_files": []}
+{"instance_id": "django__django-13112", "fix_files": ["django/db/models/fields/related.py"], "test_files": []}
+{"instance_id": "django__django-13121", "fix_files": ["django/db/backends/base/operations.py", "django/db/backends/mysql/operations.py", "django/db/backends/sqlite3/operations.py", "django/db/models/expressions.py"], "test_files": []}
+{"instance_id": "django__django-13128", "fix_files": ["django/db/models/expressions.py"], "test_files": []}
+{"instance_id": "django__django-13158", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-13195", "fix_files": ["django/contrib/messages/storage/cookie.py", "django/contrib/sessions/middleware.py", "django/http/response.py"], "test_files": []}
+{"instance_id": "django__django-13212", "fix_files": ["django/core/validators.py", "django/forms/fields.py"], "test_files": []}
+{"instance_id": "django__django-13279", "fix_files": ["django/contrib/sessions/backends/base.py"], "test_files": []}
+{"instance_id": "django__django-13297", "fix_files": ["django/views/generic/base.py"], "test_files": []}
+{"instance_id": "django__django-13315", "fix_files": ["django/forms/models.py"], "test_files": []}
+{"instance_id": "django__django-13343", "fix_files": ["django/db/models/fields/files.py"], "test_files": []}
+{"instance_id": "django__django-13344", "fix_files": ["django/contrib/sessions/middleware.py", "django/middleware/cache.py", "django/middleware/security.py"], "test_files": []}
+{"instance_id": "django__django-13346", "fix_files": ["django/db/models/fields/json.py"], "test_files": []}
+{"instance_id": "django__django-13363", "fix_files": ["django/db/models/functions/datetime.py"], "test_files": []}
+{"instance_id": "django__django-13401", "fix_files": ["django/db/models/fields/__init__.py"], "test_files": []}
+{"instance_id": "django__django-13406", "fix_files": ["django/db/models/query.py"], "test_files": []}
+{"instance_id": "django__django-13410", "fix_files": ["django/core/files/locks.py"], "test_files": []}
+{"instance_id": "django__django-13417", "fix_files": ["django/db/models/query.py"], "test_files": []}
+{"instance_id": "django__django-13449", "fix_files": ["django/db/models/expressions.py"], "test_files": []}
+{"instance_id": "django__django-13512", "fix_files": ["django/contrib/admin/utils.py", "django/forms/fields.py"], "test_files": []}
+{"instance_id": "django__django-13513", "fix_files": ["django/views/debug.py"], "test_files": []}
+{"instance_id": "django__django-13516", "fix_files": ["django/core/management/base.py"], "test_files": []}
+{"instance_id": "django__django-13551", "fix_files": ["django/contrib/auth/tokens.py"], "test_files": []}
+{"instance_id": "django__django-13568", "fix_files": ["django/contrib/auth/checks.py"], "test_files": []}
+{"instance_id": "django__django-13569", "fix_files": ["django/db/models/functions/math.py"], "test_files": []}
+{"instance_id": "django__django-13590", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-13658", "fix_files": ["django/core/management/__init__.py"], "test_files": []}
+{"instance_id": "django__django-13670", "fix_files": ["django/utils/dateformat.py"], "test_files": []}
+{"instance_id": "django__django-13741", "fix_files": ["django/contrib/auth/forms.py"], "test_files": []}
+{"instance_id": "django__django-13786", "fix_files": ["django/db/migrations/operations/models.py"], "test_files": []}
+{"instance_id": "django__django-13794", "fix_files": ["django/utils/functional.py"], "test_files": []}
+{"instance_id": "django__django-13807", "fix_files": ["django/db/backends/sqlite3/base.py"], "test_files": []}
+{"instance_id": "django__django-13809", "fix_files": ["django/core/management/commands/runserver.py"], "test_files": []}
+{"instance_id": "django__django-13810", "fix_files": ["django/core/handlers/base.py"], "test_files": []}
+{"instance_id": "django__django-13820", "fix_files": ["django/db/migrations/loader.py"], "test_files": []}
+{"instance_id": "django__django-13821", "fix_files": ["django/db/backends/sqlite3/base.py"], "test_files": []}
+{"instance_id": "django__django-13837", "fix_files": ["django/utils/autoreload.py"], "test_files": []}
+{"instance_id": "django__django-13925", "fix_files": ["django/db/models/base.py"], "test_files": []}
+{"instance_id": "django__django-13933", "fix_files": ["django/forms/models.py"], "test_files": []}
+{"instance_id": "django__django-13964", "fix_files": ["django/db/models/base.py"], "test_files": []}
+{"instance_id": "django__django-14007", "fix_files": ["django/db/models/sql/compiler.py"], "test_files": []}
+{"instance_id": "django__django-14011", "fix_files": ["django/core/servers/basehttp.py", "django/db/backends/sqlite3/features.py"], "test_files": []}
+{"instance_id": "django__django-14017", "fix_files": ["django/db/models/query_utils.py"], "test_files": []}
+{"instance_id": "django__django-14034", "fix_files": ["django/forms/boundfield.py"], "test_files": []}
+{"instance_id": "django__django-14053", "fix_files": ["django/contrib/staticfiles/storage.py"], "test_files": []}
+{"instance_id": "django__django-14089", "fix_files": ["django/utils/datastructures.py"], "test_files": []}
+{"instance_id": "django__django-14122", "fix_files": ["django/db/models/sql/compiler.py"], "test_files": []}
+{"instance_id": "django__django-14140", "fix_files": ["django/db/models/query_utils.py"], "test_files": []}
+{"instance_id": "django__django-14155", "fix_files": ["django/urls/resolvers.py"], "test_files": []}
+{"instance_id": "django__django-14170", "fix_files": ["django/db/backends/base/operations.py", "django/db/models/lookups.py"], "test_files": []}
+{"instance_id": "django__django-14238", "fix_files": ["django/db/models/fields/__init__.py"], "test_files": []}
+{"instance_id": "django__django-14311", "fix_files": ["django/utils/autoreload.py"], "test_files": []}
+{"instance_id": "django__django-14315", "fix_files": ["django/db/backends/base/client.py", "django/db/backends/postgresql/client.py"], "test_files": []}
+{"instance_id": "django__django-14349", "fix_files": ["django/core/validators.py"], "test_files": []}
+{"instance_id": "django__django-14351", "fix_files": ["django/db/models/lookups.py"], "test_files": []}
+{"instance_id": "django__django-14373", "fix_files": ["django/utils/dateformat.py"], "test_files": []}
+{"instance_id": "django__django-14376", "fix_files": ["django/db/backends/mysql/base.py", "django/db/backends/mysql/client.py"], "test_files": []}
+{"instance_id": "django__django-14404", "fix_files": ["django/contrib/admin/sites.py"], "test_files": []}
+{"instance_id": "django__django-14434", "fix_files": ["django/db/backends/base/schema.py"], "test_files": []}
+{"instance_id": "django__django-14493", "fix_files": ["django/contrib/staticfiles/storage.py"], "test_files": []}
+{"instance_id": "django__django-14500", "fix_files": ["django/db/migrations/executor.py"], "test_files": []}
+{"instance_id": "django__django-14534", "fix_files": ["django/forms/boundfield.py"], "test_files": []}
+{"instance_id": "django__django-14539", "fix_files": ["django/utils/html.py"], "test_files": []}
+{"instance_id": "django__django-14559", "fix_files": ["django/db/models/query.py"], "test_files": []}
+{"instance_id": "django__django-14580", "fix_files": ["django/db/migrations/serializer.py"], "test_files": []}
+{"instance_id": "django__django-14608", "fix_files": ["django/forms/formsets.py"], "test_files": []}
+{"instance_id": "django__django-14631", "fix_files": ["django/forms/boundfield.py", "django/forms/forms.py"], "test_files": []}
+{"instance_id": "django__django-14672", "fix_files": ["django/db/models/fields/reverse_related.py"], "test_files": []}
+{"instance_id": "django__django-14725", "fix_files": ["django/forms/models.py"], "test_files": []}
+{"instance_id": "django__django-14752", "fix_files": ["django/contrib/admin/views/autocomplete.py"], "test_files": []}
+{"instance_id": "django__django-14765", "fix_files": ["django/db/migrations/state.py"], "test_files": []}
+{"instance_id": "django__django-14771", "fix_files": ["django/utils/autoreload.py"], "test_files": []}
+{"instance_id": "django__django-14787", "fix_files": ["django/utils/decorators.py"], "test_files": []}
+{"instance_id": "django__django-14792", "fix_files": ["django/utils/timezone.py"], "test_files": []}
+{"instance_id": "django__django-14855", "fix_files": ["django/contrib/admin/helpers.py"], "test_files": []}
+{"instance_id": "django__django-14915", "fix_files": ["django/forms/models.py"], "test_files": []}
+{"instance_id": "django__django-14999", "fix_files": ["django/db/migrations/operations/models.py"], "test_files": []}
+{"instance_id": "django__django-15022", "fix_files": ["django/contrib/admin/options.py"], "test_files": []}
+{"instance_id": "django__django-15037", "fix_files": ["django/core/management/commands/inspectdb.py"], "test_files": []}
+{"instance_id": "django__django-15098", "fix_files": ["django/utils/translation/trans_real.py"], "test_files": []}
+{"instance_id": "django__django-15103", "fix_files": ["django/template/defaultfilters.py", "django/utils/html.py"], "test_files": []}
+{"instance_id": "django__django-15104", "fix_files": ["django/db/migrations/autodetector.py"], "test_files": []}
+{"instance_id": "django__django-15127", "fix_files": ["django/contrib/messages/apps.py"], "test_files": []}
+{"instance_id": "django__django-15128", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-15161", "fix_files": ["django/db/models/expressions.py"], "test_files": []}
+{"instance_id": "django__django-15252", "fix_files": ["django/db/migrations/executor.py"], "test_files": []}
+{"instance_id": "django__django-15268", "fix_files": ["django/db/migrations/operations/models.py"], "test_files": []}
+{"instance_id": "django__django-15277", "fix_files": ["django/db/models/fields/__init__.py"], "test_files": []}
+{"instance_id": "django__django-15278", "fix_files": ["django/db/backends/sqlite3/schema.py"], "test_files": []}
+{"instance_id": "django__django-15280", "fix_files": ["django/db/models/fields/related_descriptors.py"], "test_files": []}
+{"instance_id": "django__django-15315", "fix_files": ["django/db/models/fields/__init__.py"], "test_files": []}
+{"instance_id": "django__django-15368", "fix_files": ["django/db/models/query.py"], "test_files": []}
+{"instance_id": "django__django-15375", "fix_files": ["django/db/models/aggregates.py"], "test_files": []}
+{"instance_id": "django__django-15380", "fix_files": ["django/db/migrations/autodetector.py"], "test_files": []}
+{"instance_id": "django__django-15382", "fix_files": ["django/db/models/expressions.py"], "test_files": []}
+{"instance_id": "django__django-15467", "fix_files": ["django/contrib/admin/options.py"], "test_files": []}
+{"instance_id": "django__django-15499", "fix_files": ["django/db/migrations/operations/models.py"], "test_files": []}
+{"instance_id": "django__django-15503", "fix_files": ["django/db/models/fields/json.py"], "test_files": []}
+{"instance_id": "django__django-15525", "fix_files": ["django/core/serializers/base.py"], "test_files": []}
+{"instance_id": "django__django-15554", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-15561", "fix_files": ["django/db/backends/base/schema.py", "django/db/models/fields/__init__.py"], "test_files": []}
+{"instance_id": "django__django-15563", "fix_files": ["django/db/models/sql/compiler.py", "django/db/models/sql/subqueries.py"], "test_files": []}
+{"instance_id": "django__django-15569", "fix_files": ["django/db/models/query_utils.py"], "test_files": []}
+{"instance_id": "django__django-15572", "fix_files": ["django/template/autoreload.py"], "test_files": []}
+{"instance_id": "django__django-15629", "fix_files": ["django/db/backends/base/schema.py", "django/db/backends/oracle/features.py", "django/db/backends/sqlite3/schema.py", "django/db/models/fields/related.py"], "test_files": []}
+{"instance_id": "django__django-15695", "fix_files": ["django/db/migrations/operations/models.py"], "test_files": []}
+{"instance_id": "django__django-15731", "fix_files": ["django/db/models/manager.py"], "test_files": []}
+{"instance_id": "django__django-15732", "fix_files": ["django/db/backends/base/schema.py"], "test_files": []}
+{"instance_id": "django__django-15741", "fix_files": ["django/utils/formats.py"], "test_files": []}
+{"instance_id": "django__django-15814", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-15851", "fix_files": ["django/db/backends/postgresql/client.py"], "test_files": []}
+{"instance_id": "django__django-15863", "fix_files": ["django/template/defaultfilters.py"], "test_files": []}
+{"instance_id": "django__django-15916", "fix_files": ["django/forms/models.py"], "test_files": []}
+{"instance_id": "django__django-15930", "fix_files": ["django/db/models/expressions.py"], "test_files": []}
+{"instance_id": "django__django-15957", "fix_files": ["django/db/models/fields/related_descriptors.py"], "test_files": []}
+{"instance_id": "django__django-15973", "fix_files": ["django/db/migrations/autodetector.py"], "test_files": []}
+{"instance_id": "django__django-15987", "fix_files": ["django/core/management/commands/loaddata.py"], "test_files": []}
+{"instance_id": "django__django-16032", "fix_files": ["django/db/models/fields/related_lookups.py", "django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-16082", "fix_files": ["django/db/models/expressions.py"], "test_files": []}
+{"instance_id": "django__django-16100", "fix_files": ["django/contrib/admin/options.py"], "test_files": []}
+{"instance_id": "django__django-16116", "fix_files": ["django/core/management/commands/makemigrations.py"], "test_files": []}
+{"instance_id": "django__django-16136", "fix_files": ["django/views/generic/base.py"], "test_files": []}
+{"instance_id": "django__django-16139", "fix_files": ["django/contrib/auth/forms.py"], "test_files": []}
+{"instance_id": "django__django-16145", "fix_files": ["django/core/management/commands/runserver.py"], "test_files": []}
+{"instance_id": "django__django-16255", "fix_files": ["django/contrib/sitemaps/__init__.py"], "test_files": []}
+{"instance_id": "django__django-16256", "fix_files": ["django/contrib/contenttypes/fields.py", "django/db/models/fields/related_descriptors.py"], "test_files": []}
+{"instance_id": "django__django-16263", "fix_files": ["django/db/models/expressions.py", "django/db/models/query_utils.py", "django/db/models/sql/query.py", "django/db/models/sql/where.py"], "test_files": []}
+{"instance_id": "django__django-16315", "fix_files": ["django/db/models/query.py", "django/db/models/sql/compiler.py"], "test_files": []}
+{"instance_id": "django__django-16333", "fix_files": ["django/contrib/auth/forms.py"], "test_files": []}
+{"instance_id": "django__django-16429", "fix_files": ["django/utils/timesince.py"], "test_files": []}
+{"instance_id": "django__django-16454", "fix_files": ["django/core/management/base.py"], "test_files": []}
+{"instance_id": "django__django-16485", "fix_files": ["django/template/defaultfilters.py"], "test_files": []}
+{"instance_id": "django__django-16493", "fix_files": ["django/db/models/fields/files.py"], "test_files": []}
+{"instance_id": "django__django-16502", "fix_files": ["django/core/servers/basehttp.py"], "test_files": []}
+{"instance_id": "django__django-16527", "fix_files": ["django/contrib/admin/templatetags/admin_modify.py"], "test_files": []}
+{"instance_id": "django__django-16560", "fix_files": ["django/contrib/postgres/constraints.py", "django/db/models/constraints.py"], "test_files": []}
+{"instance_id": "django__django-16569", "fix_files": ["django/forms/formsets.py"], "test_files": []}
+{"instance_id": "django__django-16595", "fix_files": ["django/db/migrations/operations/fields.py"], "test_files": []}
+{"instance_id": "django__django-16612", "fix_files": ["django/contrib/admin/sites.py"], "test_files": []}
+{"instance_id": "django__django-16631", "fix_files": ["django/contrib/auth/__init__.py", "django/contrib/auth/base_user.py"], "test_files": []}
+{"instance_id": "django__django-16642", "fix_files": ["django/http/response.py"], "test_files": []}
+{"instance_id": "django__django-16661", "fix_files": ["django/contrib/admin/options.py"], "test_files": []}
+{"instance_id": "django__django-16662", "fix_files": ["django/db/migrations/writer.py"], "test_files": []}
+{"instance_id": "django__django-16667", "fix_files": ["django/forms/widgets.py"], "test_files": []}
+{"instance_id": "django__django-16801", "fix_files": ["django/db/models/fields/files.py"], "test_files": []}
+{"instance_id": "django__django-16819", "fix_files": ["django/db/migrations/operations/models.py"], "test_files": []}
+{"instance_id": "django__django-16877", "fix_files": ["django/template/defaultfilters.py"], "test_files": []}
+{"instance_id": "django__django-16899", "fix_files": ["django/contrib/admin/checks.py"], "test_files": []}
+{"instance_id": "django__django-16901", "fix_files": ["django/db/models/sql/where.py"], "test_files": []}
+{"instance_id": "django__django-16938", "fix_files": ["django/core/serializers/python.py", "django/core/serializers/xml_serializer.py"], "test_files": []}
+{"instance_id": "django__django-16950", "fix_files": ["django/forms/models.py"], "test_files": []}
+{"instance_id": "django__django-17029", "fix_files": ["django/apps/registry.py"], "test_files": []}
+{"instance_id": "django__django-17084", "fix_files": ["django/db/models/sql/query.py"], "test_files": []}
+{"instance_id": "django__django-17087", "fix_files": ["django/db/migrations/serializer.py"], "test_files": []}
+{"instance_id": "django__django-7530", "fix_files": ["django/core/management/commands/makemigrations.py"], "test_files": []}
+{"instance_id": "django__django-9296", "fix_files": ["django/core/paginator.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-13989", "fix_files": ["lib/matplotlib/axes/_axes.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-14623", "fix_files": ["lib/matplotlib/axes/_base.py", "lib/matplotlib/ticker.py", "lib/mpl_toolkits/mplot3d/axes3d.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-20488", "fix_files": ["lib/matplotlib/image.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-20676", "fix_files": ["lib/matplotlib/widgets.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-20826", "fix_files": ["lib/matplotlib/axis.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-20859", "fix_files": ["lib/matplotlib/legend.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-21568", "fix_files": ["lib/matplotlib/dates.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-22719", "fix_files": ["lib/matplotlib/category.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-22865", "fix_files": ["lib/matplotlib/colorbar.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-22871", "fix_files": ["lib/matplotlib/dates.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-23299", "fix_files": ["lib/matplotlib/__init__.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-23314", "fix_files": ["lib/mpl_toolkits/mplot3d/axes3d.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-23412", "fix_files": ["lib/matplotlib/patches.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-23476", "fix_files": ["lib/matplotlib/figure.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-24026", "fix_files": ["lib/matplotlib/stackplot.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-24149", "fix_files": ["lib/matplotlib/axes/_axes.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-24177", "fix_files": ["lib/matplotlib/axes/_base.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-24570", "fix_files": ["lib/matplotlib/offsetbox.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-24627", "fix_files": ["lib/matplotlib/axes/_base.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-24637", "fix_files": ["lib/matplotlib/offsetbox.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-24870", "fix_files": ["lib/matplotlib/contour.py", "lib/matplotlib/tri/_tricontour.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-24970", "fix_files": ["lib/matplotlib/colors.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-25122", "fix_files": ["lib/matplotlib/mlab.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-25287", "fix_files": ["lib/matplotlib/axis.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-25311", "fix_files": ["lib/matplotlib/offsetbox.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-25332", "fix_files": ["lib/matplotlib/cbook.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-25479", "fix_files": ["lib/matplotlib/cm.py", "lib/matplotlib/colors.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-25775", "fix_files": ["lib/matplotlib/backends/backend_agg.py", "lib/matplotlib/backends/backend_cairo.py", "lib/matplotlib/text.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-25960", "fix_files": ["lib/matplotlib/figure.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-26113", "fix_files": ["lib/matplotlib/axes/_axes.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-26208", "fix_files": ["lib/matplotlib/axes/_base.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-26291", "fix_files": ["lib/mpl_toolkits/axes_grid1/inset_locator.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-26342", "fix_files": ["lib/matplotlib/collections.py"], "test_files": []}
+{"instance_id": "matplotlib__matplotlib-26466", "fix_files": ["lib/matplotlib/text.py"], "test_files": []}
+{"instance_id": "mwaskom__seaborn-3069", "fix_files": ["seaborn/_core/plot.py"], "test_files": []}
+{"instance_id": "mwaskom__seaborn-3187", "fix_files": ["seaborn/_core/scales.py", "seaborn/utils.py"], "test_files": []}
+{"instance_id": "pallets__flask-5014", "fix_files": ["src/flask/blueprints.py"], "test_files": []}
+{"instance_id": "psf__requests-1142", "fix_files": ["requests/models.py"], "test_files": []}
+{"instance_id": "psf__requests-1724", "fix_files": ["requests/sessions.py"], "test_files": []}
+{"instance_id": "psf__requests-1766", "fix_files": ["requests/auth.py"], "test_files": []}
+{"instance_id": "psf__requests-1921", "fix_files": ["requests/sessions.py"], "test_files": []}
+{"instance_id": "psf__requests-2317", "fix_files": ["requests/sessions.py"], "test_files": []}
+{"instance_id": "psf__requests-2931", "fix_files": ["requests/models.py"], "test_files": []}
+{"instance_id": "psf__requests-5414", "fix_files": ["requests/models.py"], "test_files": []}
+{"instance_id": "psf__requests-6028", "fix_files": ["requests/utils.py"], "test_files": []}
+{"instance_id": "pydata__xarray-2905", "fix_files": ["xarray/core/variable.py"], "test_files": []}
+{"instance_id": "pydata__xarray-3095", "fix_files": ["xarray/core/indexing.py", "xarray/core/variable.py"], "test_files": []}
+{"instance_id": "pydata__xarray-3151", "fix_files": ["xarray/core/combine.py"], "test_files": []}
+{"instance_id": "pydata__xarray-3305", "fix_files": ["xarray/core/dataset.py", "xarray/core/variable.py"], "test_files": []}
+{"instance_id": "pydata__xarray-3677", "fix_files": ["xarray/core/dataset.py"], "test_files": []}
+{"instance_id": "pydata__xarray-3993", "fix_files": ["xarray/core/dataarray.py", "xarray/core/dataset.py"], "test_files": []}
+{"instance_id": "pydata__xarray-4075", "fix_files": ["xarray/core/weighted.py"], "test_files": []}
+{"instance_id": "pydata__xarray-4094", "fix_files": ["xarray/core/dataarray.py"], "test_files": []}
+{"instance_id": "pydata__xarray-4356", "fix_files": ["xarray/core/nanops.py"], "test_files": []}
+{"instance_id": "pydata__xarray-4629", "fix_files": ["xarray/core/merge.py"], "test_files": []}
+{"instance_id": "pydata__xarray-4687", "fix_files": ["xarray/core/computation.py"], "test_files": []}
+{"instance_id": "pydata__xarray-4695", "fix_files": ["xarray/core/dataarray.py"], "test_files": []}
+{"instance_id": "pydata__xarray-4966", "fix_files": ["xarray/coding/variables.py"], "test_files": []}
+{"instance_id": "pydata__xarray-6461", "fix_files": ["xarray/core/computation.py"], "test_files": []}
+{"instance_id": "pydata__xarray-6599", "fix_files": ["xarray/core/computation.py"], "test_files": []}
+{"instance_id": "pydata__xarray-6721", "fix_files": ["xarray/core/common.py"], "test_files": []}
+{"instance_id": "pydata__xarray-6744", "fix_files": ["xarray/core/rolling.py"], "test_files": []}
+{"instance_id": "pydata__xarray-6938", "fix_files": ["xarray/core/dataset.py", "xarray/core/variable.py"], "test_files": []}
+{"instance_id": "pydata__xarray-6992", "fix_files": ["xarray/core/dataset.py", "xarray/core/indexes.py"], "test_files": []}
+{"instance_id": "pydata__xarray-7229", "fix_files": ["xarray/core/computation.py"], "test_files": []}
+{"instance_id": "pydata__xarray-7233", "fix_files": ["xarray/core/rolling.py"], "test_files": []}
+{"instance_id": "pydata__xarray-7393", "fix_files": ["xarray/core/indexing.py"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-4551", "fix_files": ["pylint/pyreverse/diagrams.py", "pylint/pyreverse/inspector.py", "pylint/pyreverse/utils.py", "pylint/pyreverse/writer.py"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-4604", "fix_files": ["pylint/checkers/variables.py", "pylint/constants.py"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-4661", "fix_files": ["pylint/config/__init__.py", "setup.cfg"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-4970", "fix_files": ["pylint/checkers/similar.py"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-6386", "fix_files": ["pylint/config/argument.py", "pylint/config/arguments_manager.py", "pylint/config/utils.py", "pylint/lint/base_options.py"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-6528", "fix_files": ["pylint/lint/expand_modules.py", "pylint/lint/pylinter.py"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-6903", "fix_files": ["pylint/lint/run.py"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-7080", "fix_files": ["pylint/lint/expand_modules.py"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-7277", "fix_files": ["pylint/__init__.py"], "test_files": []}
+{"instance_id": "pylint-dev__pylint-8898", "fix_files": ["pylint/config/argument.py", "pylint/utils/__init__.py", "pylint/utils/utils.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-10051", "fix_files": ["src/_pytest/logging.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-10081", "fix_files": ["src/_pytest/unittest.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-10356", "fix_files": ["src/_pytest/mark/structures.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-5262", "fix_files": ["src/_pytest/capture.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-5631", "fix_files": ["src/_pytest/compat.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-5787", "fix_files": ["src/_pytest/reports.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-5809", "fix_files": ["src/_pytest/pastebin.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-5840", "fix_files": ["src/_pytest/config/__init__.py", "src/_pytest/pathlib.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-6197", "fix_files": ["src/_pytest/python.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-6202", "fix_files": ["src/_pytest/python.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-7205", "fix_files": ["src/_pytest/setuponly.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-7236", "fix_files": ["src/_pytest/unittest.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-7324", "fix_files": ["src/_pytest/mark/expression.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-7432", "fix_files": ["src/_pytest/skipping.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-7490", "fix_files": ["src/_pytest/skipping.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-7521", "fix_files": ["src/_pytest/capture.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-7571", "fix_files": ["src/_pytest/logging.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-7982", "fix_files": ["src/_pytest/pathlib.py"], "test_files": []}
+{"instance_id": "pytest-dev__pytest-8399", "fix_files": ["src/_pytest/python.py", "src/_pytest/unittest.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-10297", "fix_files": ["sklearn/linear_model/ridge.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-10844", "fix_files": ["sklearn/metrics/cluster/supervised.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-10908", "fix_files": ["sklearn/feature_extraction/text.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-11310", "fix_files": ["sklearn/model_selection/_search.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-11578", "fix_files": ["sklearn/linear_model/logistic.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-12585", "fix_files": ["sklearn/base.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-12682", "fix_files": ["examples/decomposition/plot_sparse_coding.py", "sklearn/decomposition/dict_learning.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-12973", "fix_files": ["sklearn/linear_model/least_angle.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-13124", "fix_files": ["sklearn/model_selection/_split.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-13135", "fix_files": ["sklearn/preprocessing/_discretization.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-13142", "fix_files": ["sklearn/mixture/base.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-13328", "fix_files": ["sklearn/linear_model/huber.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-13439", "fix_files": ["sklearn/pipeline.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-13496", "fix_files": ["sklearn/ensemble/iforest.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-13779", "fix_files": ["sklearn/ensemble/voting.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-14053", "fix_files": ["sklearn/tree/export.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-14087", "fix_files": ["sklearn/linear_model/logistic.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-14141", "fix_files": ["sklearn/utils/_show_versions.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-14496", "fix_files": ["sklearn/cluster/optics_.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-14629", "fix_files": ["sklearn/multioutput.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-14710", "fix_files": ["sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-14894", "fix_files": ["sklearn/svm/base.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-14983", "fix_files": ["sklearn/model_selection/_split.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-15100", "fix_files": ["sklearn/feature_extraction/text.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-25102", "fix_files": ["sklearn/base.py", "sklearn/feature_selection/_base.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-25232", "fix_files": ["sklearn/impute/_iterative.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-25747", "fix_files": ["sklearn/utils/_set_output.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-25931", "fix_files": ["sklearn/ensemble/_iforest.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-25973", "fix_files": ["sklearn/feature_selection/_sequential.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-26194", "fix_files": ["sklearn/metrics/_ranking.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-26323", "fix_files": ["sklearn/compose/_column_transformer.py"], "test_files": []}
+{"instance_id": "scikit-learn__scikit-learn-9288", "fix_files": ["sklearn/cluster/k_means_.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-10323", "fix_files": ["sphinx/directives/code.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-10435", "fix_files": ["sphinx/writers/latex.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-10449", "fix_files": ["sphinx/ext/autodoc/typehints.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-10466", "fix_files": ["sphinx/builders/gettext.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-10614", "fix_files": ["sphinx/ext/inheritance_diagram.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-10673", "fix_files": ["sphinx/directives/other.py", "sphinx/environment/adapters/toctree.py", "sphinx/environment/collectors/toctree.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-11445", "fix_files": ["sphinx/util/rst.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-11510", "fix_files": ["sphinx/directives/other.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-7440", "fix_files": ["sphinx/domains/std.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-7454", "fix_files": ["sphinx/domains/python.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-7462", "fix_files": ["sphinx/domains/python.py", "sphinx/pycode/ast.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-7590", "fix_files": ["sphinx/domains/c.py", "sphinx/domains/cpp.py", "sphinx/util/cfamily.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-7748", "fix_files": ["sphinx/ext/autodoc/__init__.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-7757", "fix_files": ["sphinx/util/inspect.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-7889", "fix_files": ["sphinx/ext/autodoc/mock.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-7910", "fix_files": ["sphinx/ext/napoleon/__init__.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-7985", "fix_files": ["sphinx/builders/linkcheck.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8035", "fix_files": ["sphinx/ext/autodoc/__init__.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8056", "fix_files": ["sphinx/ext/napoleon/docstring.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8120", "fix_files": ["sphinx/application.py", "sphinx/locale/__init__.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8265", "fix_files": ["sphinx/pycode/ast.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8269", "fix_files": ["sphinx/builders/linkcheck.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8459", "fix_files": ["sphinx/ext/autodoc/typehints.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8475", "fix_files": ["sphinx/builders/linkcheck.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8548", "fix_files": ["sphinx/ext/autodoc/__init__.py", "sphinx/ext/autodoc/importer.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8551", "fix_files": ["sphinx/domains/python.py", "sphinx/util/docfields.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8593", "fix_files": ["sphinx/ext/autodoc/__init__.py", "sphinx/ext/autodoc/importer.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8595", "fix_files": ["sphinx/ext/autodoc/__init__.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8621", "fix_files": ["sphinx/builders/html/transforms.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8638", "fix_files": ["sphinx/domains/python.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-8721", "fix_files": ["sphinx/ext/viewcode.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9229", "fix_files": ["sphinx/ext/autodoc/__init__.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9230", "fix_files": ["sphinx/util/docfields.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9258", "fix_files": ["sphinx/domains/python.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9281", "fix_files": ["sphinx/util/inspect.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9320", "fix_files": ["sphinx/cmd/quickstart.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9367", "fix_files": ["sphinx/pycode/ast.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9461", "fix_files": ["sphinx/domains/python.py", "sphinx/ext/autodoc/__init__.py", "sphinx/util/inspect.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9591", "fix_files": ["sphinx/domains/python.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9602", "fix_files": ["sphinx/domains/python.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9658", "fix_files": ["sphinx/ext/autodoc/mock.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9673", "fix_files": ["sphinx/ext/autodoc/typehints.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9698", "fix_files": ["sphinx/domains/python.py"], "test_files": []}
+{"instance_id": "sphinx-doc__sphinx-9711", "fix_files": ["sphinx/extension.py"], "test_files": []}
+{"instance_id": "sympy__sympy-11618", "fix_files": ["sympy/geometry/point.py"], "test_files": []}
+{"instance_id": "sympy__sympy-12096", "fix_files": ["sympy/core/function.py"], "test_files": []}
+{"instance_id": "sympy__sympy-12419", "fix_files": ["sympy/matrices/expressions/matexpr.py"], "test_files": []}
+{"instance_id": "sympy__sympy-12481", "fix_files": ["sympy/combinatorics/permutations.py"], "test_files": []}
+{"instance_id": "sympy__sympy-12489", "fix_files": ["sympy/combinatorics/permutations.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13031", "fix_files": ["sympy/matrices/sparse.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13091", "fix_files": ["sympy/core/basic.py", "sympy/core/exprtools.py", "sympy/core/numbers.py", "sympy/geometry/entity.py", "sympy/physics/optics/medium.py", "sympy/physics/vector/dyadic.py", "sympy/physics/vector/frame.py", "sympy/physics/vector/vector.py", "sympy/polys/agca/modules.py", "sympy/polys/domains/domain.py", "sympy/polys/domains/expressiondomain.py", "sympy/polys/domains/pythonrational.py", "sympy/polys/domains/quotientring.py", "sympy/polys/fields.py", "sympy/polys/monomials.py", "sympy/polys/polyclasses.py", "sympy/polys/polytools.py", "sympy/polys/rings.py", "sympy/polys/rootoftools.py", "sympy/tensor/array/ndim_array.py", "sympy/utilities/enumerative.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13372", "fix_files": ["sympy/core/evalf.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13480", "fix_files": ["sympy/functions/elementary/hyperbolic.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13551", "fix_files": ["sympy/concrete/products.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13615", "fix_files": ["sympy/sets/sets.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13647", "fix_files": ["sympy/matrices/common.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13757", "fix_files": ["sympy/polys/polytools.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13798", "fix_files": ["sympy/printing/latex.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13852", "fix_files": ["sympy/functions/special/zeta_functions.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13877", "fix_files": ["sympy/matrices/matrices.py", "sympy/utilities/randtest.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13878", "fix_files": ["sympy/stats/crv_types.py"], "test_files": []}
+{"instance_id": "sympy__sympy-13974", "fix_files": ["sympy/physics/quantum/tensorproduct.py"], "test_files": []}
+{"instance_id": "sympy__sympy-14248", "fix_files": ["sympy/printing/latex.py", "sympy/printing/pretty/pretty.py", "sympy/printing/str.py"], "test_files": []}
+{"instance_id": "sympy__sympy-14531", "fix_files": ["sympy/printing/str.py"], "test_files": []}
+{"instance_id": "sympy__sympy-14711", "fix_files": ["sympy/physics/vector/vector.py"], "test_files": []}
+{"instance_id": "sympy__sympy-14976", "fix_files": ["sympy/printing/pycode.py"], "test_files": []}
+{"instance_id": "sympy__sympy-15017", "fix_files": ["sympy/tensor/array/dense_ndim_array.py"], "test_files": []}
+{"instance_id": "sympy__sympy-15345", "fix_files": ["sympy/printing/mathematica.py"], "test_files": []}
+{"instance_id": "sympy__sympy-15349", "fix_files": ["sympy/algebras/quaternion.py"], "test_files": []}
+{"instance_id": "sympy__sympy-15599", "fix_files": ["sympy/core/mod.py"], "test_files": []}
+{"instance_id": "sympy__sympy-15809", "fix_files": ["sympy/functions/elementary/miscellaneous.py"], "test_files": []}
+{"instance_id": "sympy__sympy-15875", "fix_files": ["sympy/core/add.py"], "test_files": []}
+{"instance_id": "sympy__sympy-15976", "fix_files": ["sympy/printing/mathml.py"], "test_files": []}
+{"instance_id": "sympy__sympy-16450", "fix_files": ["sympy/simplify/simplify.py"], "test_files": []}
+{"instance_id": "sympy__sympy-16597", "fix_files": ["sympy/assumptions/ask.py", "sympy/assumptions/ask_generated.py", "sympy/core/assumptions.py", "sympy/core/power.py", "sympy/printing/tree.py", "sympy/tensor/indexed.py"], "test_files": []}
+{"instance_id": "sympy__sympy-16766", "fix_files": ["sympy/printing/pycode.py"], "test_files": []}
+{"instance_id": "sympy__sympy-16792", "fix_files": ["sympy/utilities/codegen.py"], "test_files": []}
+{"instance_id": "sympy__sympy-16886", "fix_files": ["sympy/crypto/crypto.py"], "test_files": []}
+{"instance_id": "sympy__sympy-17139", "fix_files": ["sympy/simplify/fu.py"], "test_files": []}
+{"instance_id": "sympy__sympy-17318", "fix_files": ["sympy/simplify/radsimp.py", "sympy/simplify/sqrtdenest.py"], "test_files": []}
+{"instance_id": "sympy__sympy-17630", "fix_files": ["sympy/matrices/expressions/matexpr.py"], "test_files": []}
+{"instance_id": "sympy__sympy-17655", "fix_files": ["sympy/geometry/point.py"], "test_files": []}
+{"instance_id": "sympy__sympy-18189", "fix_files": ["sympy/solvers/diophantine.py"], "test_files": []}
+{"instance_id": "sympy__sympy-18199", "fix_files": ["sympy/ntheory/residue_ntheory.py"], "test_files": []}
+{"instance_id": "sympy__sympy-18211", "fix_files": ["sympy/core/relational.py"], "test_files": []}
+{"instance_id": "sympy__sympy-18698", "fix_files": ["sympy/polys/polytools.py"], "test_files": []}
+{"instance_id": "sympy__sympy-18763", "fix_files": ["sympy/printing/latex.py"], "test_files": []}
+{"instance_id": "sympy__sympy-19040", "fix_files": ["sympy/polys/factortools.py"], "test_files": []}
+{"instance_id": "sympy__sympy-19346", "fix_files": ["sympy/printing/repr.py"], "test_files": []}
+{"instance_id": "sympy__sympy-19495", "fix_files": ["sympy/sets/conditionset.py"], "test_files": []}
+{"instance_id": "sympy__sympy-19637", "fix_files": ["sympy/core/sympify.py"], "test_files": []}
+{"instance_id": "sympy__sympy-19783", "fix_files": ["sympy/physics/quantum/dagger.py", "sympy/physics/quantum/operator.py"], "test_files": []}
+{"instance_id": "sympy__sympy-19954", "fix_files": ["sympy/combinatorics/perm_groups.py"], "test_files": []}
+{"instance_id": "sympy__sympy-20154", "fix_files": ["sympy/utilities/iterables.py"], "test_files": []}
+{"instance_id": "sympy__sympy-20428", "fix_files": ["sympy/polys/domains/expressiondomain.py"], "test_files": []}
+{"instance_id": "sympy__sympy-20438", "fix_files": ["sympy/core/relational.py", "sympy/sets/handlers/comparison.py", "sympy/sets/handlers/issubset.py"], "test_files": []}
+{"instance_id": "sympy__sympy-20590", "fix_files": ["sympy/core/_print_helpers.py"], "test_files": []}
+{"instance_id": "sympy__sympy-20801", "fix_files": ["sympy/core/numbers.py"], "test_files": []}
+{"instance_id": "sympy__sympy-20916", "fix_files": ["sympy/printing/conventions.py"], "test_files": []}
+{"instance_id": "sympy__sympy-21379", "fix_files": ["sympy/core/mod.py"], "test_files": []}
+{"instance_id": "sympy__sympy-21596", "fix_files": ["sympy/sets/handlers/intersection.py"], "test_files": []}
+{"instance_id": "sympy__sympy-21612", "fix_files": ["sympy/printing/str.py"], "test_files": []}
+{"instance_id": "sympy__sympy-21847", "fix_files": ["sympy/polys/monomials.py"], "test_files": []}
+{"instance_id": "sympy__sympy-21930", "fix_files": ["sympy/physics/secondquant.py"], "test_files": []}
+{"instance_id": "sympy__sympy-22080", "fix_files": ["sympy/printing/codeprinter.py", "sympy/printing/precedence.py"], "test_files": []}
+{"instance_id": "sympy__sympy-22456", "fix_files": ["sympy/codegen/ast.py"], "test_files": []}
+{"instance_id": "sympy__sympy-22714", "fix_files": ["sympy/geometry/point.py"], "test_files": []}
+{"instance_id": "sympy__sympy-22914", "fix_files": ["sympy/printing/pycode.py"], "test_files": []}
+{"instance_id": "sympy__sympy-23262", "fix_files": ["sympy/utilities/lambdify.py"], "test_files": []}
+{"instance_id": "sympy__sympy-23413", "fix_files": ["sympy/polys/matrices/normalforms.py"], "test_files": []}
+{"instance_id": "sympy__sympy-23534", "fix_files": ["sympy/core/symbol.py"], "test_files": []}
+{"instance_id": "sympy__sympy-23824", "fix_files": ["sympy/physics/hep/gamma_matrices.py"], "test_files": []}
+{"instance_id": "sympy__sympy-23950", "fix_files": ["sympy/sets/contains.py"], "test_files": []}
+{"instance_id": "sympy__sympy-24066", "fix_files": ["sympy/physics/units/unitsystem.py"], "test_files": []}
+{"instance_id": "sympy__sympy-24213", "fix_files": ["sympy/physics/units/unitsystem.py"], "test_files": []}
+{"instance_id": "sympy__sympy-24443", "fix_files": ["sympy/combinatorics/homomorphisms.py"], "test_files": []}
+{"instance_id": "sympy__sympy-24539", "fix_files": ["sympy/polys/rings.py"], "test_files": []}
+{"instance_id": "sympy__sympy-24562", "fix_files": ["sympy/core/numbers.py"], "test_files": []}
+{"instance_id": "sympy__sympy-24661", "fix_files": ["sympy/parsing/sympy_parser.py"], "test_files": []}

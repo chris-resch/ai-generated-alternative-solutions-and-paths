@@ -1,0 +1,12 @@
+{
+  "pydata__xarray-4075": {
+    "model_name_or_path": "hosted_vllm/qwen3.6-35b-a3b",
+    "instance_id": "pydata__xarray-4075",
+    "model_patch": "diff --git a/xarray/core/weighted.py b/xarray/core/weighted.py\nindex 996d2e4c..a7bcf777 100644\n--- a/xarray/core/weighted.py\n+++ b/xarray/core/weighted.py\n@@ -140,7 +140,7 @@ class Weighted:\n         \"\"\" Calculate the sum of weights, accounting for missing values \"\"\"\n \n         # we need to mask data values that are nan; else the weights are wrong\n-        mask = da.notnull()\n+        mask = da.notnull().astype(float)\n \n         sum_of_weights = self._reduce(mask, self.weights, dim=dim, skipna=False)\n \n"
+  },
+  "sphinx-doc__sphinx-8551": {
+    "model_name_or_path": "hosted_vllm/qwen3.6-35b-a3b",
+    "instance_id": "sphinx-doc__sphinx-8551",
+    "model_patch": "No patch.txt found, creating it from git diff\ndiff --git a/sphinx/domains/python.py b/sphinx/domains/python.py\nindex 79d7e4f46..10882f486 100644\n--- a/sphinx/domains/python.py\n+++ b/sphinx/domains/python.py\n@@ -1216,6 +1216,9 @@ class PythonDomain(Domain):\n         self.modules[name] = ModuleEntry(self.env.docname, node_id,\n                                          synopsis, platform, deprecated)\n \n+    def process_field_xref(self, pnode: pending_xref) -> None:\n+        pnode.attributes.update(self.env.ref_context)\n+\n     def clear_doc(self, docname: str) -> None:\n         for fullname, obj in list(self.objects.items()):\n             if obj.docname == docname:\ndiff --git a/sphinx/util/docfields.py b/sphinx/util/docfields.py\nindex 404bb127f..3b8780717 100644\n--- a/sphinx/util/docfields.py\n+++ b/sphinx/util/docfields.py\n@@ -295,6 +295,7 @@ class DocFieldTransformer:\n                         self.directive.domain,\n                         target,\n                         contnode=content[0],\n+                        env=self.directive.env,\n                     )\n                     if _is_single_paragraph(field_body):\n                         paragraph = cast(nodes.paragraph, field_body[0])\n"
+  }
+}

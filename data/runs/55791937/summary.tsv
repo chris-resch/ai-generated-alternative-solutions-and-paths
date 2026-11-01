@@ -1,0 +1,11 @@
+replicate	task	exit_status	patch_lines	api_calls	turns_with_thinking	thinking_chars_median	output_tokens	input_tokens_last	minutes	worktree_changes
+qwen3.6-35b-a3b-r01	pydata__xarray-4075	Submitted	2	16	16/16	115	3934	13540	1.5	2
+qwen3.6-35b-a3b-r01	sphinx-doc__sphinx-8551	Submitted	4	111	111/111	138	25015	82245	7.3	10
+qwen3.6-35b-a3b-r02	pydata__xarray-4075	Submitted	8	32	32/32	101	9762	29426	3.5	4
+qwen3.6-35b-a3b-r02	sphinx-doc__sphinx-8551	Submitted	3	56	56/56	114	6721	34161	3.0	12
+qwen3.6-35b-a3b-r03	pydata__xarray-4075	Submitted	2	22	22/22	123	4158	16918	1.7	1
+qwen3.6-35b-a3b-r03	sphinx-doc__sphinx-8551	Submitted	4	99	99/99	145	16196	58193	5.3	11
+qwen3.6-35b-a3b-r04	pydata__xarray-4075	Submitted	2	16	16/16	122	4288	14484	1.5	5
+qwen3.6-35b-a3b-r04	sphinx-doc__sphinx-8551	Submitted	7	86	85/85	105	17667	51603	5.6	20
+qwen3.6-35b-a3b-r05	pydata__xarray-4075	Submitted	2	26	25/25	114	4870	16655	2.1	2
+qwen3.6-35b-a3b-r05	sphinx-doc__sphinx-8551	Submitted	8	72	72/72	102	6540	38297	3.2	14

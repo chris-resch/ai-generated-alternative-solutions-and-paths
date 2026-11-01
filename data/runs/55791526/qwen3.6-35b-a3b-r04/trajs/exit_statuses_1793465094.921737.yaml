@@ -1,0 +1,5 @@
+instances_by_exit_status:
+    LimitsExceeded:
+    - sphinx-doc__sphinx-9658
+    Submitted:
+    - pydata__xarray-3305

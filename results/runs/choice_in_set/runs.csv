@@ -1,0 +1,118 @@
+instance_id,run,same_as_maintainers,shape,n_places,files,copies_maintainers
+django__django-13121,claude-4-5-haiku-high,False,django/db/backends/base/operations.py::<module>; django/db/backends/base/operations.py::BaseDatabaseOperations.convert_durationfield_value,2,django/db/backends/base/operations.py,0.125
+django__django-13121,claude-4-5-opus-high,False,django/db/backends/sqlite3/base.py::_sqlite_format_dtdelta,1,django/db/backends/sqlite3/base.py,0.0
+django__django-13121,claude-4-5-sonnet-high,False,django/db/backends/mysql/operations.py::<module>; django/db/backends/mysql/operations.py::DatabaseOperations.combine_duration_expression; django/db/backends/sqlite3/base.py::_sqlite_format_dtdelta,3,django/db/backends/mysql/operations.py; django/db/backends/sqlite3/base.py,0.091
+django__django-13121,claude-4-6-opus,False,django/db/backends/sqlite3/base.py::_sqlite_format_dtdelta,1,django/db/backends/sqlite3/base.py,0.0
+django__django-13121,deepseek-3-2-high,False,django/db/backends/base/operations.py::BaseDatabaseOperations.convert_durationfield_value; django/db/backends/sqlite3/base.py::_sqlite_format_dtdelta,2,django/db/backends/base/operations.py; django/db/backends/sqlite3/base.py,0.1
+django__django-13121,gemini-3-flash-high,False,django/db/backends/base/operations.py::BaseDatabaseOperations.convert_durationfield_value; django/db/backends/sqlite3/base.py::_sqlite_format_dtdelta,2,django/db/backends/base/operations.py; django/db/backends/sqlite3/base.py,0.0
+django__django-13121,glm-5-high,False,django/db/backends/sqlite3/base.py::_sqlite_format_dtdelta,1,django/db/backends/sqlite3/base.py,0.0
+django__django-13121,gpt-5-2-high,False,django/db/models/expressions.py::DurationExpression.as_sql; django/db/models/expressions.py::DurationExpression.as_sql.compile_side; django/db/models/expressions.py::DurationExpression.as_sql.is_duration,3,django/db/models/expressions.py,0.133
+django__django-13121,kimi-k2-5-high,False,django/db/backends/base/operations.py::<module>; django/db/backends/base/operations.py::BaseDatabaseOperations.convert_durationfield_value,2,django/db/backends/base/operations.py,0.0
+django__django-13121,minimax-2-5-high,False,django/db/backends/mysql/operations.py::DatabaseOperations.combine_duration_expression; django/db/backends/sqlite3/base.py::_sqlite_format_dtdelta,2,django/db/backends/mysql/operations.py; django/db/backends/sqlite3/base.py,0.0
+django__django-13121,qwen-55791312-r01,False,django/db/backends/base/operations.py::<module>; django/db/backends/base/operations.py::BaseDatabaseOperations.convert_durationfield_value,2,django/db/backends/base/operations.py,0.0
+django__django-13121,qwen-55791312-r02,False,django/db/backends/base/operations.py::<module>; django/db/backends/base/operations.py::BaseDatabaseOperations.convert_durationfield_value,2,django/db/backends/base/operations.py,0.0
+django__django-13121,qwen-55791312-r03,False,django/db/backends/base/operations.py::<module>; django/db/backends/base/operations.py::BaseDatabaseOperations.convert_durationfield_value,2,django/db/backends/base/operations.py,0.0
+django__django-13121,qwen-55791312-r04,False,django/db/backends/base/operations.py::<module>; django/db/backends/base/operations.py::BaseDatabaseOperations.convert_durationfield_value,2,django/db/backends/base/operations.py,0.0
+django__django-13121,qwen-55791312-r05,False,django/db/backends/base/operations.py::<module>; django/db/backends/base/operations.py::BaseDatabaseOperations.convert_durationfield_value,2,django/db/backends/base/operations.py,0.0
+django__django-16315,claude-4-5-haiku-high,False,django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql,1,django/db/models/sql/compiler.py,0.0
+django__django-16315,claude-4-5-opus-high,False,django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql,1,django/db/models/sql/compiler.py,0.0
+django__django-16315,claude-4-5-sonnet-high,False,django/db/backends/mysql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/postgresql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/sqlite3/operations.py::DatabaseOperations.on_conflict_suffix_sql,3,django/db/backends/mysql/operations.py; django/db/backends/postgresql/operations.py; django/db/backends/sqlite3/operations.py,0.0
+django__django-16315,claude-4-6-opus,False,django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql,1,django/db/models/sql/compiler.py,0.0
+django__django-16315,deepseek-3-2-high,False,django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql,1,django/db/models/sql/compiler.py,0.0
+django__django-16315,gemini-3-flash-high,False,django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql,1,django/db/models/sql/compiler.py,0.0
+django__django-16315,glm-5-high,False,django/db/backends/base/operations.py::BaseDatabaseOperations.on_conflict_suffix_sql; django/db/backends/mysql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/postgresql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/sqlite3/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql,5,django/db/backends/base/operations.py; django/db/backends/mysql/operations.py; django/db/backends/postgresql/operations.py; django/db/backends/sqlite3/operations.py; django/db/models/sql/compiler.py,0.0
+django__django-16315,gpt-5-2-high,False,django/db/models/query.py::QuerySet.bulk_create,1,django/db/models/query.py,0.111
+django__django-16315,gpt-5-mini,False,django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql; django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql._to_columns,2,django/db/models/sql/compiler.py,0.0
+django__django-16315,kimi-k2-5-high,False,django/db/backends/mysql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/postgresql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/sqlite3/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/models/query.py::QuerySet._check_bulk_create_options; django/db/models/query.py::QuerySet.bulk_create,5,django/db/backends/mysql/operations.py; django/db/backends/postgresql/operations.py; django/db/backends/sqlite3/operations.py; django/db/models/query.py,0.0
+django__django-16315,minimax-2-5-high,False,django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql,1,django/db/models/sql/compiler.py,0.0
+django__django-16315,qwen-55791312-r02,False,django/db/backends/mysql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/postgresql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/sqlite3/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/models/query.py::QuerySet._check_bulk_create_options; django/db/models/query.py::QuerySet.bulk_create,5,django/db/backends/mysql/operations.py; django/db/backends/postgresql/operations.py; django/db/backends/sqlite3/operations.py; django/db/models/query.py,0.0
+django__django-16315,qwen-55791312-r03,False,django/db/models/sql/compiler.py::SQLInsertCompiler.as_sql,1,django/db/models/sql/compiler.py,0.0
+django__django-16315,qwen-55791312-r04,False,django/db/backends/postgresql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/sqlite3/operations.py::DatabaseOperations.on_conflict_suffix_sql,2,django/db/backends/postgresql/operations.py; django/db/backends/sqlite3/operations.py,0.0
+django__django-16315,qwen-55791312-r05,False,django/db/backends/mysql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/postgresql/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/backends/sqlite3/operations.py::DatabaseOperations.on_conflict_suffix_sql; django/db/models/query.py::QuerySet._check_bulk_create_options; django/db/models/query.py::QuerySet.bulk_create,5,django/db/backends/mysql/operations.py; django/db/backends/postgresql/operations.py; django/db/backends/sqlite3/operations.py; django/db/models/query.py,0.0
+matplotlib__matplotlib-24627,claude-4-5-haiku-high,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,claude-4-5-opus-high,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,claude-4-5-sonnet-high,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,claude-4-6-opus,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,deepseek-3-2-high,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,gemini-3-flash-high,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,glm-5-high,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,gpt-5-2-high,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/axes/_base.py::_AxesBase.__clear._deparent_artist; lib/matplotlib/figure.py::FigureBase.clear; lib/matplotlib/figure.py::FigureBase.clear._deparent_artist,4,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,gpt-5-mini,True,lib/matplotlib/axes/_base.py::_AxesBase.__clear,1,lib/matplotlib/axes/_base.py,0.0
+matplotlib__matplotlib-24627,kimi-k2-5-high,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,minimax-2-5-high,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/axes/_base.py::_AxesBase.__init__; lib/matplotlib/figure.py::FigureBase.clear,3,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,qwen-55792710-r01,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,qwen-55792710-r02,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,qwen-55792710-r03,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+matplotlib__matplotlib-24627,qwen-55792710-r05,False,lib/matplotlib/axes/_base.py::_AxesBase.__clear; lib/matplotlib/figure.py::FigureBase.clear,2,lib/matplotlib/axes/_base.py; lib/matplotlib/figure.py,0.0
+pydata__xarray-3305,claude-4-5-haiku-high,False,xarray/core/dataarray.py::DataArray._from_temp_dataset; xarray/core/dataarray.py::DataArray._to_dataset_whole,2,xarray/core/dataarray.py,0.0
+pydata__xarray-3305,claude-4-5-opus-high,True,xarray/core/dataset.py::Dataset.quantile; xarray/core/variable.py::Variable.quantile,2,xarray/core/dataset.py; xarray/core/variable.py,0.818
+pydata__xarray-3305,claude-4-5-sonnet-high,True,xarray/core/dataset.py::Dataset.quantile; xarray/core/variable.py::Variable.quantile,2,xarray/core/dataset.py; xarray/core/variable.py,0.667
+pydata__xarray-3305,claude-4-6-opus,False,xarray/core/dataset.py::Dataset.quantile,1,xarray/core/dataset.py,0.5
+pydata__xarray-3305,deepseek-3-2-high,True,xarray/core/dataset.py::Dataset.quantile; xarray/core/variable.py::Variable.quantile,2,xarray/core/dataset.py; xarray/core/variable.py,0.833
+pydata__xarray-3305,gemini-3-flash-high,False,xarray/core/dataset.py::Dataset.quantile; xarray/core/dataset.py::Dataset.rank; xarray/core/variable.py::Variable.quantile; xarray/core/variable.py::Variable.rank,4,xarray/core/dataset.py; xarray/core/variable.py,0.385
+pydata__xarray-3305,glm-5-high,True,xarray/core/dataset.py::Dataset.quantile; xarray/core/variable.py::Variable.quantile,2,xarray/core/dataset.py; xarray/core/variable.py,0.4
+pydata__xarray-3305,gpt-5-2-high,True,xarray/core/dataset.py::Dataset.quantile; xarray/core/variable.py::Variable.quantile,2,xarray/core/dataset.py; xarray/core/variable.py,0.867
+pydata__xarray-3305,kimi-k2-5-high,False,xarray/core/dataarray.py::DataArray._from_temp_dataset; xarray/core/dataarray.py::DataArray._to_dataset_whole,2,xarray/core/dataarray.py,0.0
+pydata__xarray-3305,minimax-2-5-high,True,xarray/core/dataset.py::Dataset.quantile; xarray/core/variable.py::Variable.quantile,2,xarray/core/dataset.py; xarray/core/variable.py,0.727
+pydata__xarray-3305,qwen-55791526-r01,True,xarray/core/dataset.py::Dataset.quantile; xarray/core/variable.py::Variable.quantile,2,xarray/core/dataset.py; xarray/core/variable.py,0.8
+pydata__xarray-3305,qwen-55791526-r02,True,xarray/core/dataset.py::Dataset.quantile; xarray/core/variable.py::Variable.quantile,2,xarray/core/dataset.py; xarray/core/variable.py,0.8
+pydata__xarray-3305,qwen-55791526-r04,True,xarray/core/dataset.py::Dataset.quantile; xarray/core/variable.py::Variable.quantile,2,xarray/core/dataset.py; xarray/core/variable.py,0.8
+pydata__xarray-3305,qwen-55791526-r05,False,xarray/core/dataarray.py::DataArray._from_temp_dataset; xarray/core/dataarray.py::DataArray._to_dataset_whole,2,xarray/core/dataarray.py,0.0
+pydata__xarray-4075,claude-4-5-haiku-high,False,xarray/core/weighted.py::Weighted.__init__,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,claude-4-5-opus-high,True,xarray/core/weighted.py::Weighted._sum_of_weights,1,xarray/core/weighted.py,1.0
+pydata__xarray-4075,claude-4-5-sonnet-high,False,xarray/core/weighted.py::Weighted._reduce,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,claude-4-6-opus,False,xarray/core/weighted.py::Weighted.__init__,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,deepseek-3-2-high,False,xarray/core/weighted.py::Weighted._reduce; xarray/core/weighted.py::Weighted._sum_of_weights,2,xarray/core/weighted.py,0.0
+pydata__xarray-4075,gemini-3-flash-high,False,xarray/core/weighted.py::Weighted._reduce,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,glm-5-high,False,xarray/core/dtypes.py::<module>; xarray/core/weighted.py::Weighted._sum_of_weights,2,xarray/core/dtypes.py; xarray/core/weighted.py,0.2
+pydata__xarray-4075,gpt-5-2-high,True,xarray/core/weighted.py::Weighted._sum_of_weights,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,gpt-5-mini,True,xarray/core/weighted.py::Weighted._sum_of_weights,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,kimi-k2-5-high,False,xarray/core/weighted.py::Weighted.__init__,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,minimax-2-5-high,False,xarray/core/weighted.py::Weighted.__init__,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,qwen-55791937-r01,True,xarray/core/weighted.py::Weighted._sum_of_weights,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,qwen-55791937-r02,False,xarray/core/weighted.py::<module>; xarray/core/weighted.py::Weighted._sum_of_weights; xarray/core/weighted.py::Weighted._weighted_sum,3,xarray/core/weighted.py,0.0
+pydata__xarray-4075,qwen-55791937-r03,True,xarray/core/weighted.py::Weighted._sum_of_weights,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,qwen-55791937-r04,True,xarray/core/weighted.py::Weighted._sum_of_weights,1,xarray/core/weighted.py,0.0
+pydata__xarray-4075,qwen-55791937-r05,True,xarray/core/weighted.py::Weighted._sum_of_weights,1,xarray/core/weighted.py,0.0
+scikit-learn__scikit-learn-13439,claude-4-5-haiku-high,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.667
+scikit-learn__scikit-learn-13439,claude-4-5-opus-high,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,1.0
+scikit-learn__scikit-learn-13439,claude-4-5-sonnet-high,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.667
+scikit-learn__scikit-learn-13439,claude-4-6-opus,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,1.0
+scikit-learn__scikit-learn-13439,deepseek-3-2-high,False,sklearn/compose/_column_transformer.py::ColumnTransformer.__len__; sklearn/ensemble/voting_classifier.py::VotingClassifier.__len__; sklearn/pipeline.py::FeatureUnion.__len__; sklearn/pipeline.py::Pipeline.__len__,4,sklearn/compose/_column_transformer.py; sklearn/ensemble/voting_classifier.py; sklearn/pipeline.py,0.417
+scikit-learn__scikit-learn-13439,gemini-3-flash-high,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,1.0
+scikit-learn__scikit-learn-13439,glm-5-high,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.667
+scikit-learn__scikit-learn-13439,gpt-5-2-high,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.429
+scikit-learn__scikit-learn-13439,gpt-5-mini,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.5
+scikit-learn__scikit-learn-13439,kimi-k2-5-high,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.667
+scikit-learn__scikit-learn-13439,minimax-2-5-high,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,1.0
+scikit-learn__scikit-learn-13439,qwen-55792710-r01,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.375
+scikit-learn__scikit-learn-13439,qwen-55792710-r02,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.333
+scikit-learn__scikit-learn-13439,qwen-55792710-r03,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.375
+scikit-learn__scikit-learn-13439,qwen-55792710-r04,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.667
+scikit-learn__scikit-learn-13439,qwen-55792710-r05,True,sklearn/pipeline.py::Pipeline.__len__,1,sklearn/pipeline.py,0.667
+sphinx-doc__sphinx-8551,claude-4-5-haiku-high,False,sphinx/domains/python.py::PythonDomain.process_field_xref,1,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-8551,claude-4-5-opus-high,False,sphinx/domains/python.py::PythonDomain.process_field_xref,1,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-8551,claude-4-5-sonnet-high,False,sphinx/domains/python.py::PyXrefMixin.make_xref; sphinx/domains/python.py::PythonDomain.process_field_xref,2,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-8551,claude-4-6-opus,False,sphinx/domains/python.py::PythonDomain.process_field_xref,1,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-8551,deepseek-3-2-high,False,sphinx/domains/python.py::PyXrefMixin.make_xref; sphinx/domains/python.py::PythonDomain.find_obj; sphinx/domains/python.py::PythonDomain.process_field_xref,3,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-8551,gemini-3-flash-high,False,sphinx/domains/python.py::PythonDomain.process_field_xref,1,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-8551,glm-5-high,False,sphinx/domains/python.py::PythonDomain.process_field_xref,1,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-8551,gpt-5-2-high,False,sphinx/domains/python.py::PythonDomain.process_field_xref,1,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-8551,gpt-5-mini,False,sphinx/util/docfields.py::Field.make_xref,1,sphinx/util/docfields.py,0.0
+sphinx-doc__sphinx-8551,kimi-k2-5-high,False,sphinx/domains/python.py::PyXrefMixin.make_xref,1,sphinx/domains/python.py,0.667
+sphinx-doc__sphinx-8551,minimax-2-5-high,False,sphinx/domains/python.py::PyXrefMixin.make_xref,1,sphinx/domains/python.py,0.667
+sphinx-doc__sphinx-8551,qwen-55791937-r03,False,sphinx/domains/python.py::PythonDomain.process_field_xref; sphinx/util/docfields.py::DocFieldTransformer.transform,2,sphinx/domains/python.py; sphinx/util/docfields.py,0.0
+sphinx-doc__sphinx-8551,qwen-55791937-r04,False,sphinx/domains/python.py::PythonDomain.process_field_xref,1,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-8551,qwen-55791937-r05,False,sphinx/domains/python.py::PythonDomain.process_field_xref,1,sphinx/domains/python.py,0.0
+sphinx-doc__sphinx-9658,claude-4-5-opus-high,False,sphinx/ext/autodoc/mock.py::_MockObject.__init__,1,sphinx/ext/autodoc/mock.py,0.0
+sphinx-doc__sphinx-9658,claude-4-5-sonnet-high,False,sphinx/util/typing.py::restify,1,sphinx/util/typing.py,0.0
+sphinx-doc__sphinx-9658,claude-4-6-opus,False,sphinx/ext/autodoc/mock.py::_MockObject.__init__,1,sphinx/ext/autodoc/mock.py,0.0
+sphinx-doc__sphinx-9658,deepseek-3-2-high,False,sphinx/util/typing.py::_convert_mocked_instance; sphinx/util/typing.py::_restify_py36; sphinx/util/typing.py::_restify_py37; sphinx/util/typing.py::stringify,4,sphinx/util/typing.py,0.0
+sphinx-doc__sphinx-9658,gemini-3-flash-high,False,sphinx/util/typing.py::restify,1,sphinx/util/typing.py,0.0
+sphinx-doc__sphinx-9658,gpt-5-2-high,False,sphinx/ext/autodoc/mock.py::_MockObject.__init__,1,sphinx/ext/autodoc/mock.py,0.0
+sphinx-doc__sphinx-9658,gpt-5-mini,False,sphinx/util/typing.py::_restify_py36; sphinx/util/typing.py::_restify_py37,2,sphinx/util/typing.py,0.0
+sphinx-doc__sphinx-9658,kimi-k2-5-high,False,sphinx/ext/autodoc/mock.py::_MockObject.__getattr__; sphinx/ext/autodoc/mock.py::_MockObject.__init__; sphinx/ext/autodoc/mock.py::_make_subclass,3,sphinx/ext/autodoc/mock.py,0.0
+sphinx-doc__sphinx-9658,minimax-2-5-high,False,sphinx/ext/autodoc/mock.py::_MockObject.__init__,1,sphinx/ext/autodoc/mock.py,0.0
+sphinx-doc__sphinx-9658,qwen-55791526-r01,False,sphinx/ext/autodoc/mock.py::_MockObject.__init__,1,sphinx/ext/autodoc/mock.py,0.0
+sphinx-doc__sphinx-9658,qwen-55791526-r02,False,sphinx/ext/autodoc/mock.py::_MockObject.__init__,1,sphinx/ext/autodoc/mock.py,0.0
+sphinx-doc__sphinx-9658,qwen-55791526-r05,False,sphinx/util/typing.py::restify,1,sphinx/util/typing.py,0.0

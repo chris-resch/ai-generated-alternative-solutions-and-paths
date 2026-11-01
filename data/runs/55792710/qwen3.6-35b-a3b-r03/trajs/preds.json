@@ -1,0 +1,12 @@
+{
+  "scikit-learn__scikit-learn-13439": {
+    "model_name_or_path": "hosted_vllm/qwen3.6-35b-a3b",
+    "instance_id": "scikit-learn__scikit-learn-13439",
+    "model_patch": "diff --git a/sklearn/pipeline.py b/sklearn/pipeline.py\nindex 7eaf9a46f..2a14333c7 100755\n--- a/sklearn/pipeline.py\n+++ b/sklearn/pipeline.py\n@@ -199,6 +199,16 @@ class Pipeline(_BaseComposition):\n             if trans is not None and trans != 'passthrough':\n                 yield idx, name, trans\n \n+    def __len__(self):\n+        \"\"\"Return the number of steps in the pipeline.\n+\n+        Returns\n+        -------\n+        len : int\n+            The number of steps in the pipeline.\n+        \"\"\"\n+        return len(self.steps)\n+\n     def __getitem__(self, ind):\n         \"\"\"Returns a sub-pipeline or a single esimtator in the pipeline\n \n"
+  },
+  "matplotlib__matplotlib-24627": {
+    "model_name_or_path": "hosted_vllm/qwen3.6-35b-a3b",
+    "instance_id": "matplotlib__matplotlib-24627",
+    "model_patch": "diff --git a/lib/matplotlib/axes/_base.py b/lib/matplotlib/axes/_base.py\nindex 90b0bf117e..29264492ac 100644\n--- a/lib/matplotlib/axes/_base.py\n+++ b/lib/matplotlib/axes/_base.py\n@@ -1308,6 +1308,13 @@ class _AxesBase(martist.Artist):\n         self._get_patches_for_fill = _process_plot_var_args(self, 'fill')\n \n         self._gridOn = mpl.rcParams['axes.grid']\n+        # Unset the axes and figure attributes of the children before clearing\n+        # the list.\n+        for child in self._children:\n+            if hasattr(child, 'axes'):\n+                child.axes = None\n+            if hasattr(child, 'figure'):\n+                child.figure = None\n         self._children = []\n         self._mouseover_set = _OrderedSet()\n         self.child_axes = []\ndiff --git a/lib/matplotlib/figure.py b/lib/matplotlib/figure.py\nindex 6c18ba1a64..cf39c006b6 100644\n--- a/lib/matplotlib/figure.py\n+++ b/lib/matplotlib/figure.py\n@@ -949,6 +949,10 @@ default: %(va)s\n             ax.clear()\n             self.delaxes(ax)  # Remove ax from self._axstack.\n \n+        # Unset the figure attribute of the children before clearing the lists.\n+        for child in self.artists + self.lines + self.patches + self.texts + self.images + self.legends:\n+            if hasattr(child, 'figure'):\n+                child.figure = None\n         self.artists = []\n         self.lines = []\n         self.patches = []\n"
+  }
+}
